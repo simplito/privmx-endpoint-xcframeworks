@@ -1,2 +1,14 @@
 # PrivMX-Endpoint-XCFrameworks
-XCFrameworks containing build PrivMX Endpoint library and it's dependencies 
+This repository vends XCFrameworks used by [PrivMX Endpoint Swift](https://github.com/simplito/privmx-endpoint-swift).
+
+These are:
+ - [PrivMX Endpoint](https://github.com/simplito/privmx-endpoint), which is under [PrivMX Free License](https://github.com/simplito/privmx-endpoint/LICENSE.md)
+ - [pson-cpp](https://github.com/simplito/pson-cpp), which is under [PrivMX Free License](https://github.com/simplito/pson-cpp/LICENSE.md)
+ - [POCO](https://github.com/pocoproject/poco), which is under [Boost Software License](https://github.com/pocoproject/poco/blob/main/LICENSE)
+ - [OpenSSL](https://github.com/openssl/openssl), which is under [Apache License](https://github.com/openssl/openssl/blob/master/LICENSE.txt)
+ - [GMP](https://gmplib.org), which is under [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.html)
+ 
+Each XCFramework has static libraries built for
+ - iOS (ARM)
+ - iOS simulator (ARM)
+ - macOS (ARM and x86_64)   
